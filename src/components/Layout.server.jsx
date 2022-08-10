@@ -6,7 +6,7 @@ import { useShopQuery, CacheLong, gql, useUrl, Link } from "@shopify/hydrogen";
 export function Layout({ children }) {
   const { pathname } = useUrl();
   const isHome = pathname === "/";
-  const menu = "annisa";
+  const menu = "Testpage";
   const {
     data: { shop },
   } = useShopQuery({
