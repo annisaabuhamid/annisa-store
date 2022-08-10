@@ -36,11 +36,13 @@ export function Layout({ children }) {
                {menu}
             </Link>
           </div>
+          
         </header>
 
         <main role="main" id="mainContent" className="flex-grow">
           {children}
         </main>
+        
       </div>
     </>
   );
