@@ -5,11 +5,12 @@ import {
 } from '@shopify/hydrogen/config';
 
 export default defineConfig({
+
   shopify: () => ({
     defaultLanguageCode: 'EN',
     defaultCountryCode: 'US',
-    storeDomain: Oxygen.env.SHOPIFY_STORE_DOMAIN,
-    storefrontToken: Oxygen.env.SHOPIFY_STOREFRONT_API_PUBLIC_TOKEN,
+    storeDomain: 'editions-demo.myshopify.com',
+    storefrontToken: 'f18c5a628794c4d3eb0340327abdb19e',
     storefrontApiVersion: '2022-07',
   }),
   session: CookieSessionStorage('__session', {
